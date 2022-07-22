@@ -30,3 +30,27 @@
  1) http://localhost:3000/
  2) http://localhost:3000/hoteis
  3) http://localhost:3000/hoteis?cidade=CidadeNome&dataInicial=PadraoAmericano&dataFinal=PadraoAmericano
+ 
+  ## Instalação
+ 1) Clone o projeto: 
+      ~~~
+      git clone git@github.com:leonardoklinger/Trabalho-Final-Sistemas-Distribuidos.git
+      ~~~
+      ou
+      ~~~
+      git clone https://github.com/leonardoklinger/Trabalho-Final-Sistemas-Distribuidos.git
+      ~~~
+     
+ 2) Instalar pacotes:
+      ~~~npm
+      npm install
+      ~~~
+      
+ 3) Iniciar projeto:
+      ~~~
+      npm run dev
+      ~~~
+      ou
+      ~~~
+      npm run start
+      ~~~
