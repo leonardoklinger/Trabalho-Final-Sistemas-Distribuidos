@@ -45,6 +45,9 @@
       ~~~npm
       npm install
       ~~~
+      ~~~
+      https://www.soapui.org/downloads/soapui/
+      ~~~
       
  3) Iniciar projeto:
       ~~~
