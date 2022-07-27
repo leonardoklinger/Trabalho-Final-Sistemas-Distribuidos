@@ -4,7 +4,9 @@
     "start": "node src/index.js"
   },
   "dependencies": {
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
+    "ioredis": "^5.2.2",
     "moment": "^2.29.4",
     "soap": "^0.45.0"
   }

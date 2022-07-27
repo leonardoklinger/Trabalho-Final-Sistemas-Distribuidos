@@ -1,3 +1,4 @@
+require("dotenv").config()
 const { server } = require("./config/Servidor")
 const porta = process.env.PORT || 3000
 
