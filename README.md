@@ -9,6 +9,7 @@
     <img align="center" alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
     <img align="center" alt="NPM" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white" />
     <img align="center" alt="ApiRest" src="https://img.shields.io/badge/API%20REST-B50BEC?style=for-the-badge&logo=apirest&logoColor=white" />
+    <img align="center" alt="Redis" src="https://img.shields.io/badge/Redis-D9281A?style=for-the-badge&logo=redis&logoColor=white" />
 </div><br/>
 
 ## Platorma
