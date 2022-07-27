@@ -26,6 +26,7 @@
   * NPM
   * NodeJs
   * SoapUI
+  * Redis
   
 ## Rotas/Url/Parametros
  1) http://localhost:3000/
