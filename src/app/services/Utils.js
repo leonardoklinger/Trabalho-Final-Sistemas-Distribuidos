@@ -4,6 +4,7 @@ const badRequest = (res, err) => {
     })
 }
 
+
 const mensagemErro = {
     "1": "Sua data inicial é menor que a data atual!",
     "2": "Sua data final é menor que a data atual!",
@@ -14,15 +15,19 @@ const mensagemErro = {
     "Estado": "Por favor, informe um estado!",
     "Rua": "Por favor, informe uma rua!",
     "dataInicial": "Por favor, informe uma data inicial!",
-    "dataFinal" : "Por favor, informe um data final!",
+    "dataFinal": "Por favor, informe um data final!",
     "cidadeNaoEncontrada": "é uma cidade inválida",
     "HotelNaoEncontrado": "é um hotel inválido!",
     "opcao": "Só é possivel fazer busca de apenas 1 opção!",
     "estado": "Nenhum hotel cadastrado no estado -> ",
-    "rua": "este endereço não está cadastrado em nosso sistema!"
+    "rua": "este endereço não está cadastrado em nosso sistema!",
+
+
+    "pais": "é um país inválido!",
+    "moeda": "Está moeda não existe, por favor informar outra"
 }
 
 module.exports = {
     badRequest,
-    mensagemErro
+    mensagemErro,
 }
