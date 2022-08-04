@@ -181,6 +181,9 @@ class Hoteis {
             dataInicio = moment(dataInicial).format('L').split("/").reverse().join("-"),
             dataFinalizada = moment(dataFinal).format('L').split("/").reverse().join("-")
 
+            var data_1 = new Date(dataInicio)
+            var data_2 = new Date(dataAtual)
+
         if (dataInicio < dataAtual) {
             badRequest(res, mensagemErro[1])
             return true

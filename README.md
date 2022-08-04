@@ -32,6 +32,9 @@
  1) http://localhost:3000/
  2) http://localhost:3000/hoteis
  3) http://localhost:3000/hoteis?cidade=CidadeNome&dataInicial=PadraoAmericano&dataFinal=PadraoAmericano
+ 4) http://localhost:3000/capitalpais?pais=BR
+ 5) http://localhost:3000/moeda?moeda=BRL
+ 6) http://localhost:3000/moedaDoPais?pais=BR
  
   ## Instalação
  1) Clone o projeto: 

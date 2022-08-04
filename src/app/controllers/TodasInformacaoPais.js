@@ -36,26 +36,30 @@ class Hoteis {
         }
     }
 
-    formatoJSON = (resultadoDado) => {
-        const { sISOCode, sName, sCapitalCity, sPhoneCode, sContinentCode, sCurrencyISOCode, sCountryFlag } = resultadoDado.FullCountryInfoResult
+    formatoJSON = async (resultadoDado) => {
+        try {
+            const { sISOCode, sName, sCapitalCity, sPhoneCode, sContinentCode, sCurrencyISOCode, sCountryFlag } = await resultadoDado.FullCountryInfoResult
 
-        const json = {
-            "InformacoesDoPais": {
-                "sISOCode": sISOCode,
-                "NomePais": sName,
-                "CapitalPais": sCapitalCity,
-                "CodigoTelefone": sPhoneCode,
-                "CodigoContinente": sContinentCode,
-                "CodigoMoeda": sCurrencyISOCode,
-                "Bandeira": sCountryFlag,
-                "Idioma": {
-                    "CodigoIdioma": resultadoDado.FullCountryInfoResult.Languages.tLanguage[0].sISOCode,
-                    "NomeIdioma": resultadoDado.FullCountryInfoResult.Languages.tLanguage[0].sName
+            const json = {
+                "InformacoesDoPais": {
+                    "sISOCode": sISOCode,
+                    "NomePais": sName,
+                    "CapitalPais": sCapitalCity,
+                    "CodigoTelefone": sPhoneCode,
+                    "CodigoContinente": sContinentCode,
+                    "CodigoMoeda": sCurrencyISOCode,
+                    "Bandeira": sCountryFlag,
+                    "Idioma": {
+                        "CodigoIdioma": resultadoDado.FullCountryInfoResult.Languages.tLanguage[0].sISOCode,
+                        "NomeIdioma": resultadoDado.FullCountryInfoResult.Languages.tLanguage[0].sName
+                    }
                 }
             }
-        }
 
-        return json
+            return json
+        } catch (error) {
+            return error
+        }
     }
 
     formatoXML = (resultadoDado) => {
